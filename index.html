@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-	<html lang="en">
+<html lang="en">
 	<head>
 		<title>Coffee Password</title>
 		<meta charset="utf-8">
@@ -16,7 +16,7 @@
 		<script src="bootstrap-switch.js"></script>
 
 	  	<!--MY LINKS-->
-	  	<script src="script.js"></script>
+	  	<script src="coffeepassword.js"></script>
 	  	<link rel="stylesheet" href="style.css">
 
 		<!--GOOGLE FONTS-->
@@ -26,16 +26,11 @@
 
 	  	<!--FONTAWESOME LINKS-->
 	  	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-
-	  	<!--JQUERY-->
-	  	<script>
-	  		$("[name='my-checkbox']").bootstrapSwitch();
-	  	</script>
 	</head>
-
-  	<body>
+    
+    <body>
   		<div class="container">
-  			<!--Header-->
+  		    <!--Header-->
   			<div class="row">
   				<div class="col-md-12" id="header">
   					<h4>Clara Ameller</h4>
@@ -56,134 +51,35 @@
 				</div>
 				<div class="col-md-4"> </div>
 			</div>
-			<!--Center-->
-			<div class="row after-space">
-				<!--Left-->
-				<div class="col-md-6" id="requirements">
-					<h4>Choose your requirements:</h4>
-					<div class="tab-right">
-						<!-- <form action="demo_form.asp" method="get"> -->
-							<!-- <input type="checkbox" value="numbers"> Numbers<br>
-							<input type="checkbox" value="letters"> Letters<br>
-							<div class="tab-tab-right">
-								<input type="checkbox" value="uppercase"> Uppercase<br>
-								<input type="checkbox" value="lowercase"> Lowercase<br>
-							</div>
-							<input type="checkbox" value="signs"> Signs</br>
-							How many characters <input type="number" name="user"><br>
-							<input type="submit" value="GO"> -->
-							
-
-							<!-- <input type="checkbox" class="switch" data-on-text="On" data-off-text="Off" data-label-text="String" name="my-checkbox" checked> -->
-
-							    <div id="animated-switch" class="make-switch" data-animated="false">
-        <input type="checkbox" checked>
-    </div>
-							
-						<!-- </form> -->
-					</div>
-				</div>
-				<!--Right-->
-				<div class="col-md-6" id="result">
-					Javascript
-				</div>
-			</div>
-			<!--Down-Arrow-->
-			<!-- <div class="row">
-				<div class="col-md-12" id="down-arrow">
-					<i class="fa fa-angle-down" aria-hidden="true"> </i>
-				</div>
-			</div> -->
-			<!--Footer-->
-			<div class="row">
-				<div class="col-md-4 footer" id="footer1">
-					<!-- <a class="icons" href="twitter.com/ClaraAmeller">
-						<i class="fa fa-twitter" aria-hidden="true"></i>
-					</a> -->
-				</div>
-				<div class="col-md-4 footer" id="footer2">
-					<p>'How is done'section</p>
-				</div>
-				<div class="col-md-4 footer" id="footer3">
-					<p>Personal data section</p>
-				</div>
-			</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  			<!--Presentation-->
-  			<!-- <div class="row">
-	  			<div class="col-md-2 presentation"/>
-	  			<div class="col-md-8">
-	  				<h1 id="title">Coffee Password</h1>
-	  			</div>
-	  			<div class="col-md-2"/>
-	  		</div> -->
-	  		<!-- <div class="row">
-	  			<div class="col-md-2"/>
-	  			<div class="col-md-8">
-	  				<h3>Coffee Password is a free app to help you create secure passwords.</h3>
-	  			</div>
-	  			<div class="col-md-2"/>
-	  		</div> -->
-  			<!-- <div class="col-md-2"/>
-  			<h4>Check your requirements</h4>
-			
-			<button onclick="howMany()">Only numbers</button>
-  			<div id="movements">
-  				<p id="how_many"></p>
-  			</div>
-  			
-
-  			<p id="result"></p> -->
-
-			
-   		</div>
-  	</body>
+            <!--BODY-->
+            <div class="row bubbles-div">
+                <div class="col-md-2"></div>
+                <div class="col-md-2 bubbles">
+                    <button id="yellow" onclick="selected()">a</button>
+                </div>
+                <div class="col-md-2 bubbles">
+                    <button id="red" onclick="selected()">A</button>
+                </div>
+                <div class="col-md-2 bubbles">
+                    <button id="green" onclick="selected()">1234</button>
+                </div>
+                <div class="col-md-2 bubbles">
+                    <button id="orange" onclick="selected()">+ @</button>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            
+            <!--Js-->
+            <div class="row javascript">
+                <div class="col-md-4">
+                    <span><p id="futureText"> </p></span>
+                </div>
+                
+                <div class="col-md-8">
+                    <p id="showpassword"></p>
+                </div>
+            </div>
+            <!--ENDcontainerAbove-->
+        </div>
+    </body
 </html>
