@@ -1,0 +1,97 @@
+h1,h3 {
+	text-align: center;
+}
+.col-md-2 {
+	background-color: gray;
+}
+
+/*HEADER*/
+#header {
+	/*background-color: pink;*/
+	text-align: left;
+	font-family: 'Yellowtail';
+	height: 60px;
+}
+
+#header,h4 {
+	font-size: 30px;
+}
+
+/*PRESENTATION*/
+#title {
+	font-family: 'Roboto Condensed';
+	text-transform: uppercase;
+	/*background-color: red;*/
+}
+
+#title, h1 {
+	font-size: 80px;
+	letter-spacing: 1px;
+}
+
+#intro {
+	/*background-color: blue;*/
+	margin-top:-2%;
+	font-family: 'Roboto Condensed';
+	text-transform: uppercase;
+}
+
+#title, h3 {
+	font-size: 15px;
+	letter-spacing: 2px;
+	line-height: 130%;
+}
+
+.after-space {
+	margin-top: 3%;
+}
+
+
+/*CENTER LEFT*/
+#requirements {
+	/*background-color: purple;*/
+}
+
+.tab-right,.tab-tab-right {
+	padding: 1%;
+	padding-left: 5%;
+}
+
+input[type="submit"] {
+
+}
+
+input[type="number"] {
+	width: 13%;
+}
+
+/*CENTER RIGHT*/
+
+#result {
+	background-color: yellow;
+}
+
+
+/*FOOTER*/
+
+#down-arrow {
+	background-color: green;
+}
+
+.footer {
+	background-color: gray;
+}
+
+
+
+#footer1 {
+	background-color: brown;
+}
+
+#footer2 {
+	background-color: orange;
+}
+
+#footer3 {
+	background-color: turquoise;
+}
